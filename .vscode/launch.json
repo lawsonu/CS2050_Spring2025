@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AnimalPolymorphism",
+            "request": "launch",
+            "mainClass": "AnimalPolymorphism",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "DealershipExceptionHandling",
+            "request": "launch",
+            "mainClass": "DealershipExceptionHandling",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "M03LoopsConditionsMethods",
+            "request": "launch",
+            "mainClass": "M03LoopsConditionsMethods",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSortTDD",
+            "request": "launch",
+            "mainClass": "SelectionSortTDD",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "UnruhGE01Polymorphism",
+            "request": "launch",
+            "mainClass": "UnruhGE01Polymorphism",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "UnruhTestSimpleRectangle",
+            "request": "launch",
+            "mainClass": "UnruhTestSimpleRectangle",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "cs2050ClassWork",
+            "request": "launch",
+            "mainClass": "cs2050ClassWork",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        }
+    ]
+}
