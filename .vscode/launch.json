@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CorpSales",
+            "request": "launch",
+            "mainClass": "CorpSales",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
             "name": "GE01AnimalPolyMorphism",
             "request": "launch",
             "mainClass": "GE01AnimalPolyMorphism",

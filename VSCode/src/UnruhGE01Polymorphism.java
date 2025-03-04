@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class UnruhGE01Polymorphism {
     public static void main(String[] args) throws FileNotFoundException{
 
-        final File ANIMAL_FILE = new File ("VSCode/src/Animals.txt");
+        final File ANIMAL_FILE = new File ("/Users/lawsonunruh/Documents/GitHub/CS2050_Spring2025/VSCode/src/Animals.txt");
 
         Scanner fileReader = null;
         try {
