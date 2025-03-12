@@ -50,8 +50,7 @@ public class CorpSales
 
 		
 		//call method to display 2d array
-
-		
+		CorpSales.display2DArray(sales);
 		//call method to calculate array sum of all sales
 
 		
@@ -63,8 +62,13 @@ public class CorpSales
 	
 
 	//Write method to display2DArray
-
+	public void display2DArray(double[][] array){
+		for (int i = 0; i < array.length; i++){
+			for (int j = 0; j < array[0].length; j++){
+				System.out.print(array[i][j]);
+			}
+		}
+	}
 
 	//write method calculateArraySum
-
 }
