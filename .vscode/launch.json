@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "abstractGeometricShapeExample",
+            "request": "launch",
+            "mainClass": "ClassExamples.abstractGeometricShapeExample",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "StackTest",
+            "request": "launch",
+            "mainClass": "ClassExamples.StackTest",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "StackTest",
+            "request": "launch",
+            "mainClass": "StackTest",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
             "name": "UnruhGE022DArray",
             "request": "launch",
             "mainClass": "UnruhGE022DArray",

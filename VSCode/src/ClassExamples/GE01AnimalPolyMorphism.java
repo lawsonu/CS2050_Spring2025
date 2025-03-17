@@ -1,3 +1,4 @@
+
 /**
  * 
  */
@@ -15,25 +16,25 @@ public class GE01AnimalPolyMorphism
 	{
 		try
 		{
-			Animal[] animals = readAnimalsFromFile("Animals.txt");
+			AnimalE[] animals = readAnimalsFromFile("Animals.txt");
 
 			// Now demonstrate the power of polymorphism!
 			for (int i = 0; i < animals.length; i++)
 			{
-				System.out.println();
-				if (animals[i] instanceof Bear)
-				{
-					System.out.println("Animal[" + i + "] is a Bear");
-				} else if (animals[i] instanceof Elephant)
-				{
-					System.out.println("Animal[" + i + "] is an Elephant");
-				} else if (animals[i] instanceof Monkey)
-				{
-					System.out.println("Animal[" + i + "] is a Monkey");
-				} else if (animals[i] instanceof Sloth)
-				{
-					System.out.println("Animal[" + i + "] is a Sloth");
-				}
+				// System.out.println();
+				// if (animals[i] instanceof Bear)
+				// {
+				// 	System.out.println("Animal[" + i + "] is a Bear");
+				// } else if (animals[i] instanceof Elephant)
+				// {
+				// 	System.out.println("Animal[" + i + "] is an Elephant");
+				// } else if (animals[i] instanceof Monkey)
+				// {
+				// 	System.out.println("Animal[" + i + "] is a Monkey");
+				// } else if (animals[i] instanceof Sloth)
+				// {
+				// 	System.out.println("Animal[" + i + "] is a Sloth");
+				// }
 
 				// Student Note: You can call the toString method explicitly, but if you leave
 				// the call off,
@@ -60,9 +61,9 @@ public class GE01AnimalPolyMorphism
 	}
 
 	/**
-	 * Reads animal data from a file and returns an array of Animal objects.
+	 * Reads AnimalEdata from a file and returns an array of AnimalEobjects.
 	 */
-	public static Animal[] readAnimalsFromFile(String filename) throws FileNotFoundException
+	public static AnimalE[] readAnimalsFromFile(String filename) throws FileNotFoundException
 	{
 		File inputFileName = new File(filename);
 		Scanner inputFile = null;
@@ -86,13 +87,13 @@ public class GE01AnimalPolyMorphism
 				throw new IllegalArgumentException("Invalid number of animals. It must be greater than zero.");
 			}
 
-			Animal[] animals = new Animal[numAnimals];
+			AnimalE[] animals = new AnimalE[numAnimals];
 
 			for (int i = 0; i < animals.length; i++)
 			{
 				if (!inputFile.hasNext())
 				{
-					throw new InputMismatchException("Unexpected end of file while reading animal data.");
+					throw new InputMismatchException("Unexpected end of file while reading AnimalEdata.");
 				}
 
 				String type = inputFile.next();
@@ -117,7 +118,7 @@ public class GE01AnimalPolyMorphism
 					animals[i] = new Sloth(name, food, weight, sleep, location);
 					break;
 				default:
-					System.out.println("Warning: Unknown animal type '" + type + "'. Skipping entry.");
+					System.out.println("Warning: Unknown AnimalEtype '" + type + "'. Skipping entry.");
 					i--; // Retry the same index
 					break;
 				}
@@ -136,8 +137,8 @@ public class GE01AnimalPolyMorphism
 
 }// end public class GE01AnimalPolyMorphism
 
-// Superclass Animal demonstrating Inheritance and Polymorphism
-class Animal
+// Superclass AnimalEdemonstrating Inheritance and Polymorphism
+class AnimalE
 {
 
 	// Instance variables for an Animal
@@ -157,7 +158,7 @@ class Animal
 	// In any case, for this assignment, I have left the default constructor off.
 
 	// Constructor that initializes the instance variables
-	public Animal(String name, String food, int weight, int sleep, String location)
+	public AnimalE(String name, String food, int weight, int sleep, String location)
 	{
 		this.name = name;
 		this.food = food;
@@ -196,32 +197,32 @@ class Animal
 		return location;
 	}
 
-	// Make animal eat
+	// Make AnimalEeat
 	public void eat()
 	{
-		System.out.println("Animal is eating");
+		System.out.println("AnimalEis eating");
 	}
 
-	// Make animal sleep
+	// Make AnimalEsleep
 	public void sleep()
 	{
-		System.out.println("Animal is sleeping - do not disturb");
+		System.out.println("AnimalEis sleeping - do not disturb");
 	}
 
-	// Make animal swim
+	// Make AnimalEswim
 	public void swim()
 	{
-		System.out.println("Animal is swimming");
+		System.out.println("AnimalEis swimming");
 	}
 
 }
 
 // Subclasses inheriting from Animal
-class Bear extends Animal
+class Bear extends AnimalE
 {
 	public Bear(String name, String food, int weight, int sleep, String location)
 	{
-		// You could create setters in Animal and call them to set the values, but
+		// You could create setters in AnimalEand call them to set the values, but
 		// calling
 		// super is the way this assignment is handling setting the instance variables.
 		// Both approaches are used in industry.
@@ -255,7 +256,7 @@ class Bear extends Animal
 
 }// bear
 
-class Elephant extends Animal
+class Elephant extends AnimalE
 {
 	public Elephant(String name, String food, int weight, int sleep, String location)
 	{
@@ -276,7 +277,7 @@ class Elephant extends Animal
 	}
 }// Elephant
 
-class Monkey extends Animal
+class Monkey extends AnimalE
 {
 	public Monkey(String name, String food, int weight, int sleep, String location)
 	{
@@ -303,7 +304,7 @@ class Monkey extends Animal
 	}
 }// Monkey
 
-class Sloth extends Animal
+class Sloth extends AnimalE
 {
 	public Sloth(String name, String food, int weight, int sleep, String location)
 	{
