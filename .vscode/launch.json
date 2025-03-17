@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UnruhGE022DArray",
+            "request": "launch",
+            "mainClass": "UnruhGE022DArray",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
             "name": "UnruhLeture15",
             "request": "launch",
             "mainClass": "UnruhLeture15",

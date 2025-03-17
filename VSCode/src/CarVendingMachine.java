@@ -16,7 +16,7 @@ class VendingMachine{
     }
 
     void retrieveCar(int floor, int space){
-        return Car[floor][space];
+        System.out.println(tower[floor][space]);
     }
 }
 
