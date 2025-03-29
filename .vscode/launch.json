@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CarVendingMachine",
+            "request": "launch",
+            "mainClass": "CarVendingMachine",
+            "projectName": "CS2050_Spring2025_a63adbda",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
             "name": "abstractGeometricShapeExample",
             "request": "launch",
             "mainClass": "ClassExamples.abstractGeometricShapeExample",
