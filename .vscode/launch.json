@@ -9,6 +9,13 @@
             "name": "CarVendingMachine",
             "request": "launch",
             "mainClass": "CarVendingMachine",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "CarVendingMachine",
+            "request": "launch",
+            "mainClass": "CarVendingMachine",
             "projectName": "CS2050_Spring2025_a63adbda",
             "console": "integratedTerminal"
         },
