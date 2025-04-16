@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryTreeTest",
+            "request": "launch",
+            "mainClass": "BinaryTreeTest",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
             "name": "TaskManagerDemo",
             "request": "launch",
             "mainClass": "TaskManagerDemo",
