@@ -27,7 +27,7 @@ public class CarVendingMachine {
                 case 1:
                     System.out.println("Enter the file name: (cars1.txt) (cars2.txt)");
                     String fileName = input.next();
-                    Carvana.loadCars("VSCode\\src\\" + fileName);
+                    Carvana.loadCars("/Users/lawsonunruh/Documents/GitHub/CS2050_Spring2025/VSCode/src/" + fileName);
                     break;
                 case 2:
                     Carvana.displayTower();

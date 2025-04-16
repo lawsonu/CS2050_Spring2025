@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TaskManagerDemo",
+            "request": "launch",
+            "mainClass": "TaskManagerDemo",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "DoubleLinkedListLab",
+            "request": "launch",
+            "mainClass": "DoubleLinkedListLab",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
+            "name": "FixSinglyLinkedOrderedList",
+            "request": "launch",
+            "mainClass": "FixSinglyLinkedOrderedList",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
             "name": "CarVendingMachine",
             "request": "launch",
             "mainClass": "CarVendingMachine",
