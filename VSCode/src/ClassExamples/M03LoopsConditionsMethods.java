@@ -1,3 +1,4 @@
+package ClassExamples;
 
 
 public class M03LoopsConditionsMethods
