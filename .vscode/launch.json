@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UnruhCarVendingMachine02",
+            "request": "launch",
+            "mainClass": "UnruhCarVendingMachine02",
+            "projectName": "CS2050_Spring2025_7f25b358"
+        },
+        {
+            "type": "java",
             "name": "BinaryTreeTest",
             "request": "launch",
             "mainClass": "BinaryTreeTest",

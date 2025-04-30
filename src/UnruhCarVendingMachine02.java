@@ -12,6 +12,7 @@ public class UnruhCarVendingMachine02 {
 
         Carvana.create(); // initialize the vending machine dimensions
 
+
         while(true){
 
             Carvana.menu(); // display menu options
@@ -48,7 +49,7 @@ public class UnruhCarVendingMachine02 {
                     break;
                 case 10:
                     System.out.println("Exiting program. Goodbye!"); // exit
-                    break;
+                    return;
                 default:
                     System.out.println("Invalid Choice"); // invalid input
                     user.close();
@@ -105,10 +106,12 @@ class VendingMachine {
 
     // Load car data from a file
     void loadCars() throws FileNotFoundException {
+        System.out.println("Current working directory: " + new File(".").getAbsolutePath());
 
         System.out.print("Enter the file name: ");
         user.nextLine(); // consume leftover newline
         String fileName = user.nextLine();
+        System.out.println(fileName);
          
         File file = new File(fileName);
         Car currCar;
