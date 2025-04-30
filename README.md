@@ -5,9 +5,6 @@ This is my CS2050 repository for Spring of 2050 at MSU Denver! This repo contain
 📁 Repository Structure
 CS2050_Spring2025/
 ├── Assignments.java
-
 ├── class_examples/
-
 │   ├── Examples.java
-
 └── README.md
